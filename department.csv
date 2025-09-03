@@ -1,0 +1,5 @@
+id,dept_info,location_id
+1,"(\"Data Engineer\",150,\"Big data enables predictive insights\")",10001
+2,"(\"Data Analyst\",160,\"Visualization makes data easily understandable\")",10002
+3,"(\"Business Intelligence\",170,\"Business intelligence transforms raw data\")",10003
+4,"(\"Data Scientist\",180,\"Machine learning improves data prediction\")",10004
