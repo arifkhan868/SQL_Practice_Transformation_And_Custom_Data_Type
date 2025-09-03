@@ -83,8 +83,8 @@ FROM master.auto_genarated_qa;
 #PostgreSQL #SQL #AdvancedSQL #Pivot #CompositeType #EnumType #RangeType #NestedData #DataTransformation #BusinessIntelligence
 
 
-# Authon : Ariful Islam
-# Email : arifkhan.nsd14@gmail.com
+## Authon : Ariful Islam
+## Email : arifkhan.nsd14@gmail.com
 
 
 
