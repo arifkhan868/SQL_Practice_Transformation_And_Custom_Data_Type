@@ -62,5 +62,35 @@ SELECT * FROM master.callhistory WHERE callduration @> '9:22'::time;
 SELECT (question).q, (question).a
 FROM master.auto_genarated_qa;
 ```
+---
+# 🔹 Learning Outcomes
+
+- Master pivot and unpivot transformations for reporting and analytics
+- Understand custom composite and enum types in PostgreSQL
+- Work with range types and advanced operators (@>, &&)
+- Handle nested data structures and timestamp/boolean defaults
+- Strengthen ability to solve complex SQL queries in real-world scenarios
+- Prepare for technical interviews requiring advanced SQL problem solving
+---
+# 🔹 Recommended Usage
+
+- Use this repository as a self-practice guide for advanced PostgreSQL concepts
+- Extend queries to your own datasets for real-life simulation
+- Combine with full projects to showcase both skill and applied experience
+---
+# 🔹 Tags / Keywords
+
+#PostgreSQL #SQL #AdvancedSQL #Pivot #CompositeType #EnumType #RangeType #NestedData #DataTransformation #BusinessIntelligence
+
+
+# Authon : Ariful Islam
+# Email : arifkhan.nsd14@gmail.com
+
+
+
+
+
+
+
 
 
