@@ -1,4 +1,4 @@
-# SQL_Practice_Transformation_And_Custom_Data_Type
+
 # PostgreSQL Advanced Practice: Pivot, Custom & Composite Types, Enum, Range, and Nested Data
 ---
 
