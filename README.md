@@ -31,12 +31,13 @@ This repository contains advanced PostgreSQL practice queries, focusing on pivot
 - Filtering based on range values
 
 # 5.Nested / Custom Columns
-```sql
+
 - Creating composite type qua for question-answer pairs
 - Querying nested fields (question).q and (question).a
 - Timestamp defaults, update tracking, boolean flags for deletion
 
 ---
+```sql
 -- Pivot Example
 SELECT year,
        SUM(CASE WHEN quater = 1 THEN amount END) AS quater1,
