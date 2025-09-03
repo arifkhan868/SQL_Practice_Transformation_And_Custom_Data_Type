@@ -2,42 +2,42 @@
 # PostgreSQL Advanced Practice: Pivot, Custom & Composite Types, Enum, Range, and Nested Data
 ---
 
-# Overview:
+## Overview:
 This repository contains advanced PostgreSQL practice queries, focusing on pivot/unpivot transformations, custom data types, composite types, enum types, range types, and nested data structures. These exercises are designed to build real-world SQL skills and demonstrate the ability to handle both structured and semi-structured data.
 ---
 
-# 🔹 Topics Covered
-# 1. Pivot & Unpivot
+## 🔹 Topics Covered
+## 1. Pivot & Unpivot
 - Creating sales table and inserting data
 - Pivoting with crosstab and conditional aggregation
 - Unpivoting pivoted data using UNION ALL
 
-# 2.Custom Composite Types
+## 2.Custom Composite Types
 
 - Creating custom type dp for department information
 - Using composite type columns in tables
 - Accessing individual fields with (column).field_name syntax
 
-# 3.Enum Types
+## 3.Enum Types
 
 - Creating enum type emts for emotion
 - Storing predefined values in tables
 - Querying enum type columns
 
-# 4.Range Types
+## 4.Range Types
 
 - Creating custom range type call_type for time intervals
 - Containment (@>) and overlap (&&) queries
 - Filtering based on range values
 
-# 5.Nested / Custom Columns
+## 5.Nested / Custom Columns
 
 - Creating composite type qua for question-answer pairs
 - Querying nested fields (question).q and (question).a
 - Timestamp defaults, update tracking, boolean flags for deletion
 
 ---
-# 🔹 Sample Queries
+## 🔹 Sample Queries
 
 ---
 ```sql
@@ -63,7 +63,7 @@ SELECT (question).q, (question).a
 FROM master.auto_genarated_qa;
 ```
 ---
-# 🔹 Learning Outcomes
+## 🔹 Learning Outcomes
 
 - Master pivot and unpivot transformations for reporting and analytics
 - Understand custom composite and enum types in PostgreSQL
@@ -72,13 +72,13 @@ FROM master.auto_genarated_qa;
 - Strengthen ability to solve complex SQL queries in real-world scenarios
 - Prepare for technical interviews requiring advanced SQL problem solving
 ---
-# 🔹 Recommended Usage
+## 🔹 Recommended Usage
 
 - Use this repository as a self-practice guide for advanced PostgreSQL concepts
 - Extend queries to your own datasets for real-life simulation
 - Combine with full projects to showcase both skill and applied experience
 ---
-# 🔹 Tags / Keywords
+## 🔹 Tags / Keywords
 
 #PostgreSQL #SQL #AdvancedSQL #Pivot #CompositeType #EnumType #RangeType #NestedData #DataTransformation #BusinessIntelligence
 
