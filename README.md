@@ -37,6 +37,9 @@ This repository contains advanced PostgreSQL practice queries, focusing on pivot
 - Timestamp defaults, update tracking, boolean flags for deletion
 
 ---
+# 🔹 Sample Queries
+
+---
 ```sql
 -- Pivot Example
 SELECT year,
